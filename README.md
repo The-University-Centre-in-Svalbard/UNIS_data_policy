@@ -10,7 +10,7 @@ The UNIS data policy is written in LaTex. A PDF file is created.
 
 ## Intended work flow
 
-The intention is to collaborate on this document using GitHub issues, to ensure transparency. Changes must be agreed upon before they are merged into the main branch.Every modification should follow the process below - assuming contributors are members of the project (ask if not).
+The intention is to collaborate on this document using GitHub issues, to ensure transparency. Changes must be agreed upon before they are merged into the main branch. Every modification should follow the process below - assuming contributors are members of the project (ask if not).
 
 1. Do a git pull to update your local code
 2. Create a new local branch using git checkout -b [name_of_your_new_branch]
