@@ -1,8 +1,12 @@
 \documentclass[a4paper,english, 11pt]{article}
 
 \usepackage[a4paper,inner=2.5cm,outer=2.5cm,top=2.5cm,bottom=2.5cm,pdftex]{geometry} 
-\usepackage{hyperref}
-\usepackage{enumitem}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+\usepackage{enumerate}
 \hypersetup{colorlinks=true,linkcolor=blue, linktocpage}
 
 \newcommand{\emailme}{\href{mailto:lukem@unis.no}{lukem@unis.no}}
@@ -44,7 +48,7 @@ UNIS aims to share free and ethically open scientific data with other UNIS staff
 
 The UNIS data sharing principles are as follows:
 
-\begin{enumerate}
+\begin{enumerate}[I]
 \item There will be full and open exchange of data, metadata and products within UNIS.
 \item All data, metadata and products will be made available through the \href{https://sios-svalbard.org/metsis/search}{SIOS data catalogue}, freely with minimum time delay.
 \item All data, metadata and products will be distributed free of charge.
@@ -53,7 +57,7 @@ compatible with the \href{https://data.norge.no/nlod/en}{Norwegian License for O
 \item All data are published in a self describing form (e.g. CF-NetCDF, Darwin Core Archive) where possible. Where this is not possible a detailed product manual shall be linked to the dataset.
 \item Data access may be restricted when data release could compromise the confidentiality
 of human subjects or cause harm to endangered species or other vulnerable subjects.
-\begin{enumerate}
+\begin{enumerate}[A]
 \item Data used by Masters or Ph.D students may have a maximum embargo period of 4 years before
 they are published.
 \item Embargo periods for data are decided by the UNIS leadership group
@@ -77,7 +81,7 @@ principles, conditions and exceptions defined in this data policy. Exceptions mu
 \section{Definitions and concepts}
 \label{s:def}
 
-UNIS adopts the definitions and concepts outlined in the \href{https://sios-svalbard.org/sites/sios-svalbard.org/files/common/SIOS_Data_Policy.pdf}{SIOS Data Policy} for Dataset, Contributing data centre, Metadata, Timely manner and Life cycle management. The definition of timely manner differs slightly from SIOS in that data may have an embargo period to ensure that Masters and Ph.D. students can properly publish. This difference is covered in the \hyperref[s:principles]{principles section}.
+UNIS adopts the definitions and concepts outlined in the \href{https://sios-svalbard.org/sites/sios-svalbard.org/files/common/SIOS_Data_Policy.pdf}{SIOS Data Policy} for Dataset, Contributing data centre, Metadata, Timely manner and Life cycle management. The definition of timely manner differs slightly from SIOS in that data may have an embargo period to ensure that Masters and Ph.D. students can properly publish. This difference is covered in the \hyperref[s:principles]{Principles section}.
 
 \section{Implementation}
 \label{s:implementation}
