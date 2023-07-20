@@ -11,6 +11,7 @@
 \usepackage{enumerate}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
+\usepackage{booktabs} % For better table formatting
 \pagestyle{fancy}
 \hypersetup{colorlinks=true,linkcolor=blue, linktocpage}
 
@@ -28,8 +29,8 @@
 
 % title
 \title{UNIS data policy}
-\date{\today\\v0.1}
-\author{Luke Marsden (\emailme)}
+\date{\today\\v1.0}
+%\author{Luke Marsden (\emailme)}
 \pretitle{%
   \begin{center}
   \LARGE
@@ -40,6 +41,19 @@
 \begin{document}
 
 \maketitle
+\begin{table}[b]
+\centering
+\caption{Revision history}
+\begin{tabular}{cccc}
+\toprule
+Version & Date       & Comment                                      & Responsible \\
+\midrule
+1       & 2023-08-18 & Approved by the LG & Luke Marsden     \\
+0.1     & 2023-06-12 & Ready to be approved by UNIS LG & Luke Marsden     \\
+\bottomrule
+\end{tabular}
+\end{table}
+\newpage
 \tableofcontents
 
 \newpage
@@ -116,10 +130,6 @@ The UNIS data management plan will describe the implementation of this data poli
 \section{Approval and Review}
 \label{s:approval}
 
-ADD IF APPROVED
-
-This data policy was approved by the UNIS leadership group on DATE. 
-
-This data policy shall be reviewed WHEN AND BY WHO?
+This data policy was approved by the UNIS leadership group on August 18, 2023. It shall be reviewed annual by the UNIS leadership group and data management staff at UNIS.
 
 \end{document} 
